@@ -33,7 +33,7 @@ jobs:
           name: production-files
           path: ./build
       - name: Deploy to GitHub Pages
-        uses: amiguelGH/github-pages-deploy-action@4.1.1
+        uses: amiguelgh.github.io/video-fsm-dos@4.1.1         
         with:
           branch: main
           folder: build
