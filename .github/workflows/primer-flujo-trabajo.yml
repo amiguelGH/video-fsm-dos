@@ -36,5 +36,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           run-id: ${{ github.event.workflow_run.id }}
-          github_token: ${{ secrets.miguelGH }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+      
