@@ -33,7 +33,7 @@ jobs:
           name: production-files
           path: ./build
       - name: Deploy to GitHub Pages
-        uses: miguelGH.github.io/video-fsm-dos-gitpages@v4
+        uses: miguelGH.github.io/video-fsm-dos@v4
         with:
           run-id: ${{ github.event.workflow_run.id }}
           github_token: ${{ secrets.ACCESS_TOKEN }}
