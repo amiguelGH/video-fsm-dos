@@ -31,8 +31,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
 
-      - name: Deploy with gh-pages
-        uses: amiguelgh.github.io/@4.1.1
-        with: 
-          branch: gh-pages
-          folder: build
